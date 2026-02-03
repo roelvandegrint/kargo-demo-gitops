@@ -1,0 +1,13 @@
+# additional resources like ingress rules, cluster and repository secrets.
+namespace: argocd
+
+resources:
+- ../../base
+# - ingress.yaml
+- argocd-server-rbac-clusterrole.yaml
+- argocd-server-rbac-clusterrolebinding.yaml
+
+# patches:
+# - path: argocd-cm.yaml
+# - path: argocd-rbac-cm.yaml
+# - path: argocd-cmd-params.cm.yaml

@@ -1,0 +1,6 @@
+resources:
+- https://raw.githubusercontent.com/argoproj/argo-cd/v2.10.5/manifests/install.yaml
+# - secretproviderclass.yaml
+
+# patches:
+# - path: argocd-server-secrets-store-volume.patch.yaml
